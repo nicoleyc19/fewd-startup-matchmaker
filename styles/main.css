@@ -10,12 +10,14 @@ h1 {
 header{
 	background-color: black;
 	border-bottom: 4px solid #FFFF00;
-	padding: 1% 0% .75% 5%;
+	padding: 0px 20px;
 }
 
 .logo{
 	color: #FFFF00;
 	font-family:'merriweather', serif;
+	margin: 20px 0 0 50px;
+	font-size: 2em;
 }
 
 .logo-link:link{
@@ -28,10 +30,17 @@ header{
 	color: #FFFF00;
 }
 
+.nav{
+	display: block;
+	padding: 20px 15px;
+	margin: 0px;
+
+}
+
 .nav_link{	
 	color: white;
 	text-decoration: none;
-	padding: 20px 20px;
+	padding: 20px 15px;
 }
 
 .box {
@@ -79,8 +88,6 @@ span{
 .link1:hover{
 	color: #FFFF00;
 }
-
-
 
 .link2{
 	font-family: 'source sans pro', serif;
