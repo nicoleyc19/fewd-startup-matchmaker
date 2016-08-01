@@ -182,24 +182,29 @@ span{
 }
 
 /** DEVELOPER PAGE **/
-section{
+
+#dev-page{
 	background-color: #C6C6C6;
-	width: 100%;
 }
 
 .container{
 	display: flex;	
 	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 auto;
 	flex-wrap: wrap;
 	flex-flow: row;
-	padding: 10px 90px;
+	box-sizing: border-box;
 }
 
 .box-item{
+	flex-shrink: 1;
+	flex-grow: 2;
+	overflow: hidden;
 	background-color: white;
 	width: 25%;
-	margin: 10px;
 	padding: 10px;
+	margin: 10px;
 }
 
 .greybox{
@@ -208,8 +213,8 @@ section{
 	letter-spacing: -1px;
 	background-color: #C6C6C6;
 	color: #969696;
-	min-height: 280px;
-	min-width: 280px;
+	max-width: 275px;
+	padding: 50% 0 50% 0;
 	text-align: center;
 }
 
